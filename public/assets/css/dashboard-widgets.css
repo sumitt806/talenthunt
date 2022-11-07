@@ -1,0 +1,39 @@
+.total-users-bg {
+  background: #4facfe;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: -webkit-linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.verified-users-bg {
+  background: #4776E6;
+  background-image: linear-gradient(to right, #8E54E9, #4776E6);
+}
+
+.today-jobs-bg {
+  background: #9be15d;
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+  background-image: -webkit-linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+}
+
+.feature-jobs-bg {
+  background: rgba(230, 115, 1, 0.68) 21.4%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(230, 115, 1, 0.68) 21.4%, #ff4e4e 80.3%);
+  background-image: -webkit-radial-gradient(circle farthest-corner at 10% 20%, rgba(230, 115, 1, 0.68) 21.4%, #ff4e4e 80.3%);
+}
+
+.feature-employers-bg {
+  background-image: radial-gradient(circle 465px at -15.1% -25%, #1182c1 0%, #43a6ee 49%, #7ecbf4 90.2%);
+}
+
+.feature-jobs-incomes-bg {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #f1b42f 0%, #ea950b 90%);
+}
+
+.feature-employers-incomes-bg {
+  background-image: radial-gradient(circle 595px at 10.2% 19.1%, #c889f4 27.1%, #7195f4 98.7%);
+}
+
+.subscription-incomes-bg {
+  background-image: radial-gradient(circle 970px at 10% 20%, #f34562 0%, #bbbbbb 100.2%);
+}
+
