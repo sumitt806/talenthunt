@@ -13,7 +13,7 @@
     <meta name="description" content="{{config('app.name')}}">
     <meta name="keywords"
           content="{{config('app.name')}}">
-    <link rel="shortcut icon" href="{{ asset($settings['favicon'])}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ mix($settings['favicon'])}}" type="image/x-icon">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Website Title -->
@@ -22,19 +22,19 @@
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800|Varela+Round" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/iziToast.min.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/iziToast.min.css') }}">
 
     <!-- CSS links -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/responsive.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('web/css/custom.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/flex.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/custom-theme.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/iziToast.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ mix('web/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/flex.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/custom-theme.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/iziToast.min.css') }}">
     @livewireStyles
 
 @yield('page_css')
@@ -43,8 +43,8 @@
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-    <script src="{{ asset('web/js/html5shiv.min.js') }}"></script>
-    <script src="{{ asset('web/js/respond.min.js') }}"></script>
+    <script src="{{ mix('web/js/html5shiv.min.js') }}"></script>
+    <script src="{{ mix('web/js/respond.min.js') }}"></script>
     <![endif]-->
 </head>
 <body>
@@ -61,21 +61,21 @@
 <!-- Footer End -->
 
 <!-- ===== All Javascript at the bottom of the page for faster page loading ===== -->
-<script src="{{ asset('web/js/jquery-3.5.1.min.js') }}"></script>
-<script src="{{ asset('web/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('web/js/bootstrap-select.min.js') }}"></script>
-<script src="{{ asset('web/js/swiper.min.js') }}"></script>
-<script src="{{ asset('web/js/jquery.countTo.js') }}"></script>
-<script src="{{ asset('web/js/jquery.inview.min.js') }}"></script>
-<script src="{{ asset('web/js/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('web/js/jquery-ui.min.js') }}"></script>
-<script src="{{ asset('web/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('web/js/countdown.js') }}"></script>
-<script src="{{ asset('web/js/isotope.min.js') }}"></script>
-<script src="{{ asset('assets/js/iziToast.min.js') }}"></script>
-<script src="{{ asset('web/js/custom.js') }}"></script>
-<script src="{{ asset('assets/js/iziToast.min.js') }}"></script>
-<script src="{{ asset('assets/js/custom/custom.js') }}"></script>
+<script src="{{ mix('web/js/jquery-3.5.1.min.js') }}"></script>
+<script src="{{ mix('web/js/bootstrap.min.js') }}"></script>
+<script src="{{ mix('web/js/bootstrap-select.min.js') }}"></script>
+<script src="{{ mix('web/js/swiper.min.js') }}"></script>
+<script src="{{ mix('web/js/jquery.countTo.js') }}"></script>
+<script src="{{ mix('web/js/jquery.inview.min.js') }}"></script>
+<script src="{{ mix('web/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ mix('web/js/jquery-ui.min.js') }}"></script>
+<script src="{{ mix('web/js/owl.carousel.min.js') }}"></script>
+<script src="{{ mix('web/js/countdown.js') }}"></script>
+<script src="{{ mix('web/js/isotope.min.js') }}"></script>
+<script src="{{ mix('assets/js/iziToast.min.js') }}"></script>
+<script src="{{ mix('web/js/custom.js') }}"></script>
+<script src="{{ mix('assets/js/iziToast.min.js') }}"></script>
+<script src="{{ mix('assets/js/custom/custom.js') }}"></script>
 <script>
     (function ($) {
         $.fn.button = function (action) {
@@ -95,7 +95,7 @@
     });
     let createNewLetterUrl = "{{ route('news-letter.create') }}";
 </script>
-<script src="{{ asset('assets/js/web/js/news_letter/news_letter.js') }}"></script>
+<script src="{{ mix('assets/js/web/js/news_letter/news_letter.js') }}"></script>
 @livewireScripts
 
 

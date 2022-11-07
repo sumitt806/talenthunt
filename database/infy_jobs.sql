@@ -49748,7 +49748,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
-(1, 'application_name', 'InfyOmLabs', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
+(1, 'application_name', 'Talent Hunt', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (2, 'logo', 'assets/img/infyom-logo.png', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (3, 'favicon', 'favicon.ico', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (4, 'company_description', 'Leading Laravel Development Company of India', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
@@ -49757,7 +49757,7 @@ INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
 (7, 'email', 'contact@infyom.in', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (8, 'facebook_url', 'https://www.facebook.com/infyom/', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (9, 'twitter_url', 'https://twitter.com/infyom?lang=en', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
-(10, 'google_plus_url', 'https://infyom.com/', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
+(10, 'google_plus_url', 'https://example.com/', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (11, 'linkedIn_url', 'https://www.linkedin.com/organization-guest/company/infyom-technologies?challengeId=AQFgQaMxwSxCdAAAAXOA_wosiB2vYdQEoITs6w676AzV8cu8OzhnWEBNUQ7LCG4vds5-A12UIQk1M4aWfKmn6iM58OFJbpoRiA&submissionId=0088318b-13b3-2416-9933-b463017e531e', '2020-10-13 01:03:52', '2020-10-13 01:03:52'),
 (12, 'about_us', 'Over past 10+ years of experience and skills in various technologies, we built great scalable products.\nWhatever technology we worked with, we just not build products for our clients but we also try to make it generate and available to other lots of developers worldwide. And that\'s the reason we are the only leading company in India who created tools and available it to millions of developers worldwide. Feel free to checkout our Github account. Because we believe that open-source is the future !! We have an open-source lab to which we call InfyOm Lab .', '2020-10-13 01:03:52', '2020-10-13 01:03:52');
 

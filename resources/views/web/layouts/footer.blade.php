@@ -82,7 +82,7 @@
         <div class="container">
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <span>{{ __('web.footer.copyright') }} &copy; <a href="//www.infyom.com/" class="text-blue">{{ $settings['application_name'] }}.</a> {{ __('web.footer.all_rights_reserved') }}</span>
+                <span>{{ __('web.footer.copyright') }} &copy; <a href="//www.example.com/" class="text-blue">{{ $settings['application_name'] }}.</a> {{ __('web.footer.all_rights_reserved') }}</span>
             </div>
 
             <div class="col-md-6 col-sm-6 col-xs-12">

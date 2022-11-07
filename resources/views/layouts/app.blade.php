@@ -9,22 +9,22 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- General CSS Files -->
-    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/iziToast.min.css') }}">
-    <link href="{{ asset('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ mix('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ mix('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="{{ mix('assets/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/iziToast.min.css') }}">
+    <link href="{{ mix('assets/css/sweetalert.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ mix('assets/css/select2.min.css') }}" rel="stylesheet" type="text/css"/>
     <!-- CSS Libraries -->
 
-{{--    <link rel="stylesheet" href="{{ getBrandTypeUrl("favicon") ?? asset('favicon.ico') }}">--}}
+{{--    <link rel="stylesheet" href="{{ getBrandTypeUrl("favicon") ?? mix('favicon.ico') }}">--}}
 @stack('css')
 <!-- Template CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/web/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/web/css/components.css')}}">
+    <link rel="stylesheet" href="{{ mix('assets/web/css/style.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/web/css/components.css')}}">
     <link href="{{ mix('assets/css/infy-loader.css') }}" rel="stylesheet" type="text/css"/>
     {{--    @yield('css')--}}
-    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ mix('assets/css/custom.css') }}">
 </head>
 <body>
 <div id="app">
@@ -50,17 +50,17 @@
         </footer>
     </div>
 </div>
-<script src="{{ asset('assets/js/moment.min.js') }}"></script>
-<script src="{{ asset('assets/js/popper.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('assets/js/sweetalert.min.js') }}"></script>
-<script src="{{ asset('assets/js/iziToast.min.js') }}"></script>
-<script src="{{ asset('assets/js/select2.min.js') }}"></script>
+<script src="{{ mix('assets/js/moment.min.js') }}"></script>
+<script src="{{ mix('assets/js/popper.min.js') }}"></script>
+<script src="{{ mix('assets/js/jquery.min.js') }}"></script>
+<script src="{{ mix('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ mix('assets/js/sweetalert.min.js') }}"></script>
+<script src="{{ mix('assets/js/iziToast.min.js') }}"></script>
+<script src="{{ mix('assets/js/select2.min.js') }}"></script>
 
-<script src="{{ asset('assets/js/jquery.nicescroll.js') }}"></script>
-<script src="{{ asset('assets/web/js/stisla.js') }}"></script>
-<script src="{{ asset('assets/web/js/scripts.js') }}"></script>
+<script src="{{ mix('assets/js/jquery.nicescroll.js') }}"></script>
+<script src="{{ mix('assets/web/js/stisla.js') }}"></script>
+<script src="{{ mix('assets/web/js/scripts.js') }}"></script>
 <script src="{{ mix('assets/js/custom/custom.js') }}"></script>
 <script>
     (function ($) {
@@ -93,6 +93,6 @@
     let currentUrlName = "{{ Request::url() }}";
 </script>
 <script src="{{ mix('assets/js/user_profile/user_profile.js') }}"></script>
-<script src="{{ asset('js/currency.js') }}"></script>
+<script src="{{ mix('js/currency.js') }}"></script>
 </body>
 </html>
