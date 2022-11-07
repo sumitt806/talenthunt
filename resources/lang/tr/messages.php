@@ -98,7 +98,7 @@ return [
         'register'       => 'Kayıt ol',
         'copyright'      => 'Telif Hakkı',
         'design_by'      => 'Tarafından dizayn edildi',
-        'design_by_name' => 'InfyOm Labs.',
+        'design_by_name' => 'Talent Hunt',
         'choose_file'    => 'Dosya seçin',
         'open'           => 'Açık',
         'pause'          => 'Duraklat',

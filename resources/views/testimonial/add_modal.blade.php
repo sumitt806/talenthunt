@@ -25,7 +25,7 @@
                             </div>
                             <div class="col-sm-12 col-md-12 col-xl-6 pl-0 mt-1">
                                 <img id='previewImage' class="img-thumbnail thumbnail-preview"
-                                     src="{{ asset('assets/img/infyom-logo.png') }}">
+                                     src="{{ asset('assets/img/th-logo.png') }}">
                             </div>
                         </div>
                     </div>

@@ -98,7 +98,7 @@ return [
         'register'       => 'تسجيل',
         'copyright'      => 'حقوق النشر',
         'design_by'      => 'تصميم بواسطة',
-        'design_by_name' => 'InfyOm Labs.',
+        'design_by_name' => 'Talent Hunt.',
         'choose_file'    => 'اختر ملف',
         'open'           => 'افتح',
         'pause'          => 'وقفة',

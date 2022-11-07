@@ -98,7 +98,7 @@ return [
         'register'            => 'Register',
         'copyright'           => 'Copyright',
         'design_by'           => 'Design By',
-        'design_by_name'      => 'InfyOm Labs.',
+        'design_by_name'      => 'Talent Hunt',
         'choose_file'         => 'Choose file',
         'open'                => 'Open',
         'pause'               => 'Pause',

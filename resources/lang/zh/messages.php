@@ -98,7 +98,7 @@ return [
         'register'       => '寄存器',
         'copyright'      => '版权',
         'design_by'      => '由...设计',
-        'design_by_name' => 'InfyOm Labs.',
+        'design_by_name' => 'Talent Hunt',
         'choose_file'    => '选择文件',
         'live'           => '生活',
         'rejected'       => '拒绝',

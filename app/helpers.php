@@ -234,7 +234,7 @@ function getCompanyLogo()
         return $user->avatar;
     }
 
-    return asset('assets/img/infyom-logo.png');
+    return asset('assets/img/th-logo.png');
 }
 
 // number formatted code

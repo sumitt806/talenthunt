@@ -98,7 +98,7 @@ return [
         'register'       => 'Registrarse',
         'copyright'      => 'Derechos de autor',
         'design_by'      => 'Diseño Por',
-        'design_by_name' => 'InfyOm Laboratorios.',
+        'design_by_name' => 'Talent Hunt',
         'choose_file'    => 'Escoger expediente',
         'open'           => 'abierta',
         'pause'          => 'pausa',

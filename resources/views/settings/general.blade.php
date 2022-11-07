@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-xl-6 pl-0 mt-1">
                     <img id='logoPreview' class="img-thumbnail thumbnail-preview"
-                         src="{{($setting['logo']) ? asset($setting['logo']) : asset('assets/img/infyom-logo.png')}}">
+                         src="{{($setting['logo']) ? asset($setting['logo']) : asset('assets/img/th-logo.png')}}">
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-xl-6 pl-0 mt-1">
                     <img id='faviconPreview' class="img-thumbnail thumbnail-preview"
-                         src="{{($setting['favicon']) ? asset($setting['favicon']) : asset('assets/img/infyom-logo.png')}}">
+                         src="{{($setting['favicon']) ? asset($setting['favicon']) : asset('assets/img/th-logo.png')}}">
                 </div>
             </div>
         </div>

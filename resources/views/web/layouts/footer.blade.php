@@ -19,9 +19,9 @@
 
                 <!-- Info -->
                 <ul class="nopadding">
-                    <li><i class="fa fa-map-marker"></i>{{$settings['address'] }}</li>
-                    <li><i class="fa fa-phone"></i>{{ $settings['phone'] }}</li>
-                    <li><i class="fa fa-envelope-o"></i>{{ $settings['email'] }}</li>
+                    <li><i class="fa fa-map-marker"></i>Dummay Address</li>
+                    <li><i class="fa fa-phone"></i>+91 98765 43210</li>
+                    <li><i class="fa fa-envelope-o"></i>example@gmail.com</li>
                 </ul>
             </div>
 
@@ -82,7 +82,7 @@
         <div class="container">
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <span>{{ __('web.footer.copyright') }} &copy; <a href="//www.example.com/" class="text-blue">{{ $settings['application_name'] }}.</a> {{ __('web.footer.all_rights_reserved') }}</span>
+                <span>{{ __('web.footer.copyright') }} &copy; <a href="#" class="text-blue">{{ $settings['application_name'] }}.</a> {{ __('web.footer.all_rights_reserved') }}</span>
             </div>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -91,7 +91,7 @@
                     <!-- Social Media -->
                     @if(!empty($settings['facebook_url']))
                         <li>
-                            <a href="{{ $settings['facebook_url'] }}" class="social-btn-roll facebook"
+                            <a href="#" class="social-btn-roll facebook"
                                target="_blank">
                                 <div class="social-btn-roll-icons">
                                     <i class="social-btn-roll-icon fa fa-facebook"></i>
@@ -103,7 +103,7 @@
                 <!-- Social Media -->
                     @if(!empty($settings['twitter_url']))
                         <li>
-                            <a href="{{ $settings['twitter_url'] }}" class="social-btn-roll twitter" target="_blank">
+                            <a href="#" class="social-btn-roll twitter" target="_blank">
                                 <div class="social-btn-roll-icons">
                                     <i class="social-btn-roll-icon fa fa-twitter"></i>
                                     <i class="social-btn-roll-icon fa fa-twitter"></i>
@@ -114,7 +114,7 @@
                 <!-- Social Media -->
                     @if(!empty($settings['google_plus_url']))
                         <li>
-                            <a href="{{ $settings['google_plus_url'] }}" class="social-btn-roll google-plus"
+                            <a href="#" class="social-btn-roll google-plus"
                                target="_blank">
                                 <div class="social-btn-roll-icons">
                                     <i class="social-btn-roll-icon fa fa-google-plus"></i>
@@ -127,7 +127,7 @@
                 <!-- Social Media -->
                     @if(!empty($settings['linkedIn_url']))
                         <li>
-                            <a href="{{ $settings['linkedIn_url']}}" class="social-btn-roll linkedin"
+                            <a href="#" class="social-btn-roll linkedin"
                                target="_blank">
                                 <div class="social-btn-roll-icons">
                                     <i class="social-btn-roll-icon fa fa-linkedin"></i>

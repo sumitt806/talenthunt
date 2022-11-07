@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-sm-6 col-xs-6 col-6 col-md-6 col-xl-6 pl-2 mt-1">
                     <img id='profilePreview' class="img-thumbnail thumbnail-preview"
-                         src="{{ (!empty($user->media[0])) ? $user->media[0]->getFullUrl() : asset('assets/img/infyom-logo.png') }}">
+                         src="{{ (!empty($user->media[0])) ? $user->media[0]->getFullUrl() : asset('assets/img/th-logo.png') }}">
                 </div>
             </div>
         </div>
