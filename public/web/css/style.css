@@ -469,7 +469,7 @@ img {
 
 .section-title {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom:30px;
     margin: 0;
     text-transform: capitalize;
 }
@@ -1235,8 +1235,8 @@ ul.list {
 
 .btn-purple {
     box-shadow: 0 2px 6px #acb5f6;
-    background-color: #6777ef;
-    border-color: #6777ef;
+    background-color: #222d64;
+    border-color: #222d64;
     color: #fff;
 }
 
@@ -1244,10 +1244,10 @@ ul.list {
     background-color: #394eea !important;
 }
 
-.btn-orange {
+.btn-blue {
     box-shadow: 0 2px 6px #ffc473;
-    background-color: #ffa426;
-    border-color: #ffa426;
+    background-color: #222d64;
+    border-color: #222d64;
     color: #fff;
 }
 
@@ -1376,7 +1376,7 @@ ul.list {
 
 [type="checkbox"]:not(:checked) + label:after,
 [type="checkbox"]:checked + label:after {
-    content: '✔';
+    content: 'âœ”';
     position: absolute;
     top: 0;
     left: 3px;
@@ -1864,14 +1864,14 @@ header.navbar-fixed-top {
 }
 
 nav.navbar {
-    background: #fff;
+    background: #222d64;
     border: none;
     padding: 15px 0;
     margin: 0;
 }
 
 .navbar-brand {
-    padding: 15px 0;
+    padding: 5px 0;
     padding-right: 30px;
 }
 
@@ -1882,7 +1882,7 @@ nav.navbar {
 }
 
 div#main-nav {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .navbar .navbar-nav > li.mobile-title {
@@ -1908,7 +1908,7 @@ div#main-nav {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    color: #666;
+    color:#fdfcff;
     padding: 5px 10px;
 }
 
@@ -1925,7 +1925,7 @@ div#main-nav {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
     background: none !important;
-    color: #6777ef;
+    color: #fdfcff;
 }
 
 .navbar .navbar-nav > li > a i {
@@ -2485,7 +2485,7 @@ footer .footer-info {
 }
 
 footer .footer-info:before {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(127, 105, 154)!important;
     width: 100%;
     height: 100%;
     display: block;
@@ -2742,11 +2742,11 @@ footer .footer-info .footer-newsletter .chat-details a i {
 /* Copyright Section */
 
 footer .copyright {
-    background: #1e1f21;
+    background: rgb(127, 105, 154)!important;
 }
 
 footer .copyright span {
-    color: #999;
+    color: #fff;
     line-height: 40px;
 }
 
@@ -2863,13 +2863,9 @@ section.main {
     background: url('../img/image1.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 500px;
 }
 
 section.main .wrapper {
-    position: relative;
-    z-index: 3;
-    top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -2889,7 +2885,7 @@ section.main .wrapper h1 {
 }
 
 .job-search-form input {
-    height: 50px;
+    height: 60px;
     width: 100%;
     border: none;
     -webkit-border-radius: 5px;
@@ -2898,7 +2894,11 @@ section.main .wrapper h1 {
     padding-left: 30px;
     font-size: 18px;
     color: #999;
+    border: solid 1px #222d64;
+    position: relative;
+    border-radius: 8px 0px 0px 8px;
 }
+
 
 .job-search-form .search-location:before {
     content: '\f276';
@@ -2911,6 +2911,7 @@ section.main .wrapper h1 {
 }
 
 .job-search-form .search-submit button {
+    color: #fff!important;
     width: 100%;
     margin: 0;
 }
@@ -3036,6 +3037,7 @@ section.main3 .job-search-form .search-location:before {
 /*** ====== 7.2.1 Version 1 ====== ***/
 
 section#categories {
+    background-color:rgb(253, 252, 255)!important;
 }
 
 section#categories .category {
@@ -3419,6 +3421,7 @@ section#signup-video .video-sec a i {
 /********************** 7.4 Job Post Section ************************/
 
 section#job-post {
+    background-color: rgb(253, 252, 255)!important;
 }
 
 .job-post-main h2 i,
@@ -3428,6 +3431,7 @@ section#job-post {
 
 .job-post-wrapper .single-job-post {
     background: #fff;
+    min-height: 150px;
     position: relative;
     border-top: 1px solid #e3e3e3 !important;
     border-left: 1px solid #e3e3e3 !important;
@@ -3481,7 +3485,7 @@ section#job-post {
 
 .job-post-wrapper .single-job-post .job-title,
 .job-post-wrapper .single-job-post .job-info {
-    padding-left: 20px;
+   
 }
 
 .job-post-wrapper .single-job-post .job-title a {
@@ -5602,6 +5606,10 @@ section#page-not-found2 h2 {
     padding-top: 20px;
 }
 
+.navbar-brand .logo-color {
+   color:#fdfcff
+}
+
 .coming-main .countdown {
     text-align: center;
 }
@@ -7254,6 +7262,56 @@ section.shop .panel-group .panel .panel-heading {
 section.shop .panel-group .panel .panel-heading h4 a {
     font-family: inherit;
     font-size: 18px;
+}
+
+.text-color{
+    color:#222d64;
+}
+
+.bg-home2 {
+    color: #fff!important;
+    background-color: #fff;
+    overflow-x: clip;
+}
+
+.job-search-form .btn-purple {
+    background: #222d64!important;
+    color: #fff!important;
+    border: 0;
+    border-radius: 5px;
+    height:60px;
+    border-radius: 0px 8px 8px 0px!important;
+}
+
+.popu-category-box {
+    padding: 2.5rem 1.5rem;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.popu-category-icon {
+    width: 64px;
+    height: 64px;
+    line-height: 68px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7f699a;
+}
+.material-symbols-outlined {
+    font-size: 32px!important;
+}
+
+.top-categories {
+    margin-top: 50px;
+    background: none!important;
+    border: none!important;
+}
+
+.category-name a {
+    color: #222d64!important;
 }
 
 @media screen and (max-width: 991px) {

@@ -1,5 +1,5 @@
 <a href="{{ route('front.company.details', $company->unique_id) }}">
-    <div class="col-md-6 mt30 {{ ($loop->last && $loop->iteration % 2 != 0) ? 'col-md-offset-3' : '' }}">
+    <div class="col-md-4 mt30 {{ ($loop->last && $loop->iteration % 2 != 0) ? 'col-md-offset-3' : '' }}">
         <div class="single-job-post row nomargin container-shadow">
             <div class="col-md-2 col-xs-3 nopadding">
                 <img src="{{ $company->company_url }}" class="jobs-company-logo" alt="company logo">

@@ -7,7 +7,7 @@
 @endsection
 @section('content')
     <!-- ===== Start of Main Search Section ===== -->
-    <section class="main overlay-black">
+    <section class="main bg-home2 ptb80">
         <!-- Start of Wrapper -->
         <div class="container wrapper">
             <h1 class="capitalize text-center text-white"> {{ __('web.home_menu.your_career_starts_now') }}</h1>
@@ -62,22 +62,55 @@
         <div class="container">
             <div class="section-title">
                 <h2>{{ __('web.home_menu.popular_categories') }}</h2>
+                <p class="text-color">Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
             </div>
             <div class="row">
                 @foreach($categories as $category)
                     <div class="col-md-3 {{ ($loop->last && $loop->iteration > 4) ? 'col-md-offset-4' : '' }} mt30">
                         <div class="top-categories">
                             <div align="center">
+                                connection_aborted
+                                <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">article</i>
+                            </div>
+                                internatio 
+                                <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">public</i>
+                            </div>
+                            fresher
+                            <div class="popu-category-icon icons-md mb20">
+                            <i class="material-symbols-outlined">contact_page</i>
+                        </div>
+                        Tempraory
+                        <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">print</i>
+                            </div>
+                            Remote
+                            <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">laptop</i>
+                            </div>
+                            Parmanant job
+                            <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">verified_user</i>
+                            </div>
+                            internship
+                            <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">school</i>
+                            </div>
+                            Part time
+                            <div class="popu-category-icon icons-md mb20">
+                                <i class="material-symbols-outlined">schedule</i>
+                            </div>
                                 <h4 class="category-name"><a
                                             href="{{ route('front.search.jobs',array('categories'=> $category->id)) }}">
                                         {{ $category->name }}
                                     </a></h4>
                                 <br>
                             </div>
-                            <div class="job-count">
+                            <!-- <div class="job-count">
                                 <h5 class="text-center">{{ $category->jobs_count }}
                                     &nbsp; {{ ($category->jobs_count == 0) ? __('web.home_menu.position_open') :  __('web.home_menu.positions_open')}}</h5>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 @endforeach
@@ -91,7 +124,7 @@
         <div class="container">
             <!-- Start of Job Post Main -->
             <div class="col-md-12 col-sm-12 col-xs-12 job-post-main">
-                <h2 class="capitalize"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.latest_jobs') }}</h2>
+                <h2 class="capitalize text-center">{{ __('web.home_menu.latest_jobs') }}</h2>
 
                 <!-- Start of Job Post Wrapper -->
                 <div class="job-post-wrapper mt40">
@@ -123,7 +156,7 @@
         <div class="container">
             <!-- Start of Job Post Main -->
             <div class="col-md-12 col-sm-12 col-xs-12 job-post-main">
-                <h2 class="capitalize"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_jobs') }}</h2>
+                <h2 class="capitalize text-center"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_jobs') }}</h2>
 
                 <!-- Start of Job Post Wrapper -->
                 <div class="job-post-wrapper mt40">
@@ -151,7 +184,7 @@
         <div class="container">
             <!-- Start of Job Post Main -->
             <div class="col-md-12 col-sm-12 col-xs-12 job-post-main">
-                <h2 class="capitalize"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_companies') }}</h2>
+                <h2 class="capitalize text-center"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_companies') }}</h2>
 
                 <!-- Start of Job Post Wrapper -->
                 <div class="job-post-wrapper mt40">

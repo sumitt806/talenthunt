@@ -1,10 +1,10 @@
-<div class="col-md-6 mt25  {{ ($loop->last && $loop->iteration % 2 != 0) ? 'col-md-offset-3' : '' }}">
+<div class="col-md-4 mt25  {{ ($loop->last && $loop->iteration % 2 != 0) ? 'col-md-offset-3' : '' }}">
     <div class="single-job-post row nomargin container-shadow">
         <div class="col-md-2 col-xs-6 nopadding">
             <img src="{{ $job->company->company_url }}" class="jobs-company-logo"
                  alt="company logo">
         </div>
-        <div class="col-md-10 col-xs-6  nopadding-right nopadding-left">
+        <div class="col-md-10 col-xs-6">
             <div class="job-title">
                 @if(Str::length($job->job_title) < 35)
                     <a href="{{ route('front.job.details',$job->job_id) }}">
@@ -32,7 +32,7 @@
             </div>
             <div class="job-category pull-left j-category-type">
                 <a href="javascript:void(0)"
-                   class="btn btn-orange btn-small btn-effect">
+                   class="btn btn-blue btn-small btn-effect">
                     {{ $job->jobCategory->name }}
                 </a>
             </div>
