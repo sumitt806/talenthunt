@@ -10,9 +10,11 @@
 
                 <!-- Your Logo Here -->
                 <a href="{{ route('front.home') }}">
-                    <img src="{{ asset($settings['logo']) }}" alt="">
+                    <!-- <img src="{{ asset($settings['logo']) }}" alt=""> -->
                     <span class="app-name">{{ $settings['application_name'] }}</span>
                 </a>
+
+                <p class="pt40">It is a long established fact that a reader will be of a page reader will be of at its layout.</p>
 
                 <!-- Small Description -->
                 <p class="pt40">{{ $settings['company_description'] }}</p>
@@ -21,7 +23,7 @@
                 <ul class="nopadding">
                     <li><i class="fa fa-map-marker"></i>Dummay Address</li>
                     <li><i class="fa fa-phone"></i>+91 98765 43210</li>
-                    <li><i class="fa fa-envelope-o"></i>example@gmail.com</li>
+                    <li><i class="fa fa-envelope-o"></i>info@telanthunt.com</li>
                 </ul>
             </div>
 
@@ -78,7 +80,7 @@
 
 
     <!-- ===== Start of Footer Copyright Section ===== -->
-    <div class="copyright ptb40">
+    <div class="copyright pb40">
         <div class="container">
 
             <div class="col-md-6 col-sm-6 col-xs-12">
