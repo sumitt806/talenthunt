@@ -21,8 +21,8 @@
 
                 <!-- Info -->
                 <ul class="nopadding">
-                    <li><i class="fa fa-map-marker"></i>Dummay Address</li>
-                    <li><i class="fa fa-phone"></i>+91 98765 43210</li>
+                    <li><i class="fa fa-map-marker"></i>Tenant Hunt , Metallstrasse 6, 6300 Zug, Switzerland</li>
+                    <li><i class="fa fa-phone"></i>+41798691920</li>
                     <li><i class="fa fa-envelope-o"></i>info@telanthunt.com</li>
                 </ul>
             </div>
