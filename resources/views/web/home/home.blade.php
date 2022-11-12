@@ -121,7 +121,7 @@
     <div class="container">
         <!-- Start of Job Post Main -->
         <div class="col-md-12 col-sm-12 col-xs-12 job-post-main">
-            <h2 class="capitalize text-center"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_jobs') }}</h2>
+            <h2 class="capitalize text-center">{{ __('web.home_menu.featured_jobs') }}</h2>
 
             <!-- Start of Job Post Wrapper -->
             <div class="job-post-wrapper mt40">
@@ -149,7 +149,7 @@
     <div class="container">
         <!-- Start of Job Post Main -->
         <div class="col-md-12 col-sm-12 col-xs-12 job-post-main">
-            <h2 class="capitalize text-center"><i class="fa fa-briefcase"></i>{{ __('web.home_menu.featured_companies') }}</h2>
+            <h2 class="capitalize text-center">{{ __('web.home_menu.featured_companies') }}</h2>
 
             <!-- Start of Job Post Wrapper -->
             <div class="job-post-wrapper mt40">
