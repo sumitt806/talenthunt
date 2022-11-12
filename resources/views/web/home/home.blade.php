@@ -9,47 +9,47 @@
 <!-- ===== Start of Main Search Section ===== -->
 <section class="main bg-home2 ptb80">
     <!-- Start of Wrapper -->
-    <div class="container wrapper">
-        <h1 class="capitalize text-center text-white"> {{ __('web.home_menu.your_career_starts_now') }}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-7 col-sm-12">
+                    <h1 class="capitalize text-color"> Find your dream jobs with Talent Hunt</h1>
+                    <p class="lead text-muted mb-0 text-color mt20">Find jobs, create trackable resumes and enrich
+                        your
+                        applications.Carefully crafted after analyzing the needs of different
+                        industries.
+                    </p>
+                    <!-- Start of Form -->
+                    <form class="job-search-form row pt40" action="{{ route('front.search.jobs') }}" method="get">
 
-        <!-- Start of Form -->
-        <form class="job-search-form row pt40" action="{{ route('front.search.jobs') }}" method="get">
+                        <!-- Start of keywords input -->
+                        <div class="col-md-6 col-sm-12 search-keywords nopadding">
+                            <label for="search-keywords">{{ __('web.home_menu.keywords') }}</label>
+                            <input type="text" name="keywords" id="search-keywords" placeholder="Keywords">
+                        </div>
 
-            <!-- Start of keywords input -->
-            <div class="col-md-3 col-sm-12 search-keywords">
-                <label for="search-keywords">{{ __('web.home_menu.keywords') }}</label>
-                <input type="text" name="keywords" id="search-keywords" placeholder="Keywords">
+                        <!-- Start of submit input -->
+                        <div class="col-md-4 col-sm-12 search-submit w-100 h-100 nopadding">
+                            <button type="submit" class="btn btn-purple btn-effect btn-large"><i class="fa fa-search"></i>{{ __('web.common.search') }}
+                            </button>
+                        </div>
+
+                    </form>
+                    <!-- End of Form -->
+
+                    <div class="extra-info pt20">
+                        <span class="text-left text-white"><b>{{ $dataCounts['jobs'] }}</b> {{ __('web.home_menu.jobs_offers_for') }} <b> {{ __('web.home_menu.you') }}.</b></span>
+                    </div>
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="mt-5 mt-md-0">
+                        <img src="/assets/img/process-02.jpeg" alt="" class="home-img img-responsive">
+
+                    </div>
+                </div>
             </div>
-
-            <!-- Start of category input -->
-            <div class="col-md-3 col-sm-12 search-categories">
-                <label for="search-categories">{{ __('web.home_menu.any_category') }}</label>
-                <select name="categories" class="selectpicker" id="search-categories" data-live-search="true" title="Any Category" data-size="5" data-container="body">
-                    @foreach($jobCategories as $key => $jobCategory)
-                    <option value="{{ $key }}">{{ $jobCategory }}</option>
-                    @endforeach
-                </select>
-            </div>
-
-            <!-- Start of location input -->
-            <div class="col-md-4 col-sm-12 search-location">
-                <label for="search-location">{{ __('web.common.location') }}</label>
-                <input type="text" name="location" id="search-location" placeholder="Location">
-            </div>
-
-            <!-- Start of submit input -->
-            <div class="col-md-2 col-sm-12 search-submit">
-                <button type="submit" class="btn btn-purple btn-effect btn-large"><i class="fa fa-search"></i>{{ __('web.common.search') }}
-                </button>
-            </div>
-
-        </form>
-        <!-- End of Form -->
-
-        <div class="extra-info pt20">
-            <span class="text-left text-white"><b>{{ $dataCounts['jobs'] }}</b> {{ __('web.home_menu.jobs_offers_for') }} <b> {{ __('web.home_menu.you') }}.</b></span>
         </div>
-
     </div>
     <!-- End of Wrapper -->
 </section>
