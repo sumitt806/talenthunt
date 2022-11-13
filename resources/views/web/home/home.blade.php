@@ -38,7 +38,7 @@
                     <!-- End of Form -->
 
                     <div class="extra-info pt20">
-                        <span class="text-left text-white"><b>{{ $dataCounts['jobs'] }}</b> {{ __('web.home_menu.jobs_offers_for') }} <b> {{ __('web.home_menu.you') }}.</b></span>
+                        <span class="text-left text-color"><b>{{ $dataCounts['jobs'] }}</b> {{ __('web.home_menu.jobs_offers_for') }} <b> {{ __('web.home_menu.you') }}.</b></span>
                     </div>
 
                 </div>

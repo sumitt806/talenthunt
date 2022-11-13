@@ -82,8 +82,7 @@
                                 <a href="{{ route('front.register') }}" class="j-nav-item"> {{ __('web.register') }}</a>
                             </li>
                             <li class="simple-menu">
-                                <a href="{{ route('login') }}" class="btn btn-purple btn-effect"><i
-                                            class="fa fa-lock"></i> {{ __('web.login') }}</a>
+                                <a href="{{ route('login') }}" class="j-nav-item">{{ __('web.login') }}</a>
                             </li>
                         @endauth
                     </ul>

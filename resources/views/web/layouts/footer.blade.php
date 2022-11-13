@@ -13,9 +13,7 @@
                     <!-- <img src="{{ asset($settings['logo']) }}" alt=""> -->
                     <span class="app-name">{{ $settings['application_name'] }}</span>
                 </a>
-
-                <p class="pt40">It is a long established fact that a reader will be of a page reader will be of at its layout.</p>
-
+                
                 <!-- Small Description -->
                 <p class="pt40">{{ $settings['company_description'] }}</p>
 
