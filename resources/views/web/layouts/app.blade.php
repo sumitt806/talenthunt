@@ -17,7 +17,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Website Title -->
-    <title>@yield('title')</title>
+    <title>@yield('title') | {{config('app.name')}}</title>
 
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800|Varela+Round" rel="stylesheet">

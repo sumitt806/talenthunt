@@ -2860,7 +2860,7 @@ footer .copyright .social-btn-roll {
 /*** ====== 7.1.1 Version 1 ====== ***/
 
 section.main {
-    background: url('../img/image1.jpg') no-repeat;
+    /* background: url('../img/image1.jpg') no-repeat; */
     background-size: cover;
     background-position: center center;
 }

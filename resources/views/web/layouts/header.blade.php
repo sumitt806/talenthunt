@@ -6,7 +6,8 @@
             <!-- Logo -->
             <div class="col-md-2 col-sm-6 col-xs-8 nopadding">
                 <a class="navbar-brand nomargin" href="{{url('/')}}">
-                    <img src="{{ asset($settings['logo']) }}" alt="logo">
+                    <!-- <img src="{{ asset($settings['logo']) }}" alt="logo"> -->
+                    <h4 class="app-name text-white">{{ $settings['application_name'] }}</h4>
                 </a>
                 <!-- INSERT YOUR LOGO HERE -->
             </div>
