@@ -1,10 +1,9 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
-        <img src="{{ getLogoUrl() }}" width="70px" class="navbar-brand-full"/>&nbsp;&nbsp;
+        <!-- <img src="{{ getLogoUrl() }}" width="70px" class="navbar-brand-full"/>&nbsp;&nbsp; -->
         <a href="{{ url('/') }}">{{ config('app.name') }}</a>
         <div class="input-group px-3">
-            <input type="text" class="form-control searchTerm" id="searchText" placeholder="Search Menu"
-                   autocomplete="off">
+            <input type="text" class="form-control searchTerm" id="searchText" placeholder="Search Menu" autocomplete="off">
             <div class="input-group-append">
                 <div class="input-group-text">
                     <i class="fas fa-search search-sign"></i>
@@ -16,13 +15,14 @@
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
         <a href="{{ url('/') }}" class="small-sidebar-text">
-            <img class="navbar-brand-full" src="{{ getLogoUrl() }}" alt="{{config('app.name')}}"/>
+            <img class="navbar-brand-full" src="{{ getLogoUrl() }}" alt="{{config('app.name')}}" />
         </a>
     </div>
     <ul class="sidebar-menu mt-3">
         <li class="side-menus {{ Request::is('admin/dashboard*') ? 'active' : '' }}">
             <a class="nav-link" href="{{ route('admin.dashboard') }}"><i class="fas fa fa-digital-tachograph"></i>
-                <span>{{ __('messages.dashboard') }}</span></a></li>
+                <span>{{ __('messages.dashboard') }}</span></a>
+        </li>
     </ul>
     <ul class="sidebar-menu">
         <li class="nav-item dropdown side-menus">
@@ -258,12 +258,7 @@
                         <span>{{ __('messages.setting.front_settings') }}</span>
                     </a>
                 </li>
-                <li class="side-menus {{ Request::is('admin/settings*') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{ route('settings.index') }}">
-                        <i class="fas fa-sliders-h"></i>
-                        <span>{{ __('messages.settings') }}</span>
-                    </a>
-                </li>
+
             </ul>
         </li>
     </ul>
