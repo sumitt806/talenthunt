@@ -112,7 +112,7 @@
                 </li>
             </ul>
         </li>
-        <li class="nav-item side-menus dropdown">
+        <!-- <li class="nav-item side-menus dropdown">
             <a class="nav-link has-dropdown" href="#"><i class="fab fa-usps"></i>
                 <span>{{ __('messages.post.blog') }}</span>
             </a>
@@ -155,7 +155,7 @@
                 <i class="fas fa-bell"></i>
                 <span>{{ __('messages.subscribers') }}</span>
             </a>
-        </li>
+        </li> -->
         <li class="nav-item dropdown side-menus">
             <a class="nav-link has-dropdown" href="#"><i class="fas fa-cogs"></i>
                 <span>{{ __('messages.general') }}</span>
@@ -228,7 +228,7 @@
                 <span>{{ __('messages.cms') }}</span>
             </a>
             <ul class="dropdown-menu side-menus">
-                <li class="side-menus {{ Request::is('admin/testimonials*') ? 'active' : '' }}">
+                <!-- <li class="side-menus {{ Request::is('admin/testimonials*') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('testimonials.index') }}">
                         <i class="fas fa-sticky-note"></i>
                         <span>{{ __('messages.testimonials') }}</span>
@@ -245,7 +245,7 @@
                         <i class="fas fa-question-circle"></i>
                         <span> {{ __('messages.faq.faq') }}</span>
                     </a>
-                </li>
+                </li> -->
                 <li class="side-menus {{ Request::is('admin/inquires*') ? 'active' : '' }}">
                     <a class="nav-link" href="{{ route('inquires.index') }}">
                         <i class="fab fa-linkedin"></i>
